@@ -1,5 +1,5 @@
 # Whatssub Admin
-[![CircleCI](https://circleci.com/gh/dooboolab/whatssub-admin.svg?style=svg)](https://circleci.com/gh/dooboolab/whatssub-admin) [![Greenkeeper badge](https://badges.greenkeeper.io/dooboolab/whatssub-admin.svg)](https://greenkeeper.io/)
+[![CircleCI](https://circleci.com/gh/dooboolab/whatssub-admin.svg?style=svg)](https://circleci.com/gh/dooboolab/whatssub-admin)
 [![codecov](https://codecov.io/gh/dooboolab/whatssub-admin/branch/master/graph/badge.svg)](https://codecov.io/gh/dooboolab/whatssub-admin)
 
 > Specification
