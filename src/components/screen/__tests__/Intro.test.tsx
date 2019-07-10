@@ -51,20 +51,16 @@ describe('[Intro] Interaction', () => {
 
   afterEach(cleanup);
 
-  it('should simulate [onLogin] click with testing library', () => {
-    jest.useFakeTimers();
-    renderResult = render(component);
-    fireEvent.click(renderResult.getByText(getString('LOGIN')));
-    expect(setTimeout).toHaveBeenCalledTimes(1);
-    // expect(context.dispatch).toHaveBeenCalledWith({ type: 'reset-user' });
-    // expect(context.dispatch).toHaveBeenCalledWith({ type: 'set-user' }, expect.any(Object));
-    // expect(props.isLoading).toEqual(true); // TODO: test with useState
+  it('should simulate [navigate to SignIn] when clicked', () => {
+    rendered = renderer.create(component);
+    root = rendered.root;
 
-    act(() => {
-      jest.runAllTimers();
+    const buttons = root.findAllByType(Button);
+    buttons[0].props.onClick();
+    expect(props.history.push).toBeCalledWith({
+      pathname: '/signin',
+      state: {},
     });
-
-    expect(clearTimeout).toHaveBeenCalledTimes(1);
   });
 
   it('should simulate [navigate] when clicked', () => {

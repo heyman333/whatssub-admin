@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[SignIn] render renders without crashing 1`] = `
+<div
+  className="sc-bdVaJa eKXWdn"
+>
+  <div
+    className="sc-htpNat bGuyUj"
+  >
+    Whatssub Admin
+  </div>
+  <form
+    className="sc-bwzfXH kulSxP"
+    onSubmit={[Function]}
+  >
+    <label
+      className="sc-bxivhb LPZtQ"
+    >
+      Email:
+      <input
+        className="sc-ifAKCX dvbUXC"
+        data-testid="email"
+        name="email"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="email"
+        value=""
+      />
+    </label>
+    <label
+      className="sc-bxivhb LPZtQ"
+    >
+      Password:
+      <input
+        className="sc-ifAKCX dvbUXC"
+        data-testid="password"
+        name="password"
+        onBlur={[Function]}
+        onChange={[Function]}
+        type="password"
+        value=""
+      />
+    </label>
+    <button
+      className="sc-EHOje fLKwPt"
+      data-testid="submit"
+      disabled={false}
+      type="submit"
+    >
+      Login
+    </button>
+  </form>
+</div>
+`;

@@ -78,26 +78,18 @@ interface IProps {
 function Intro(props: IProps) {
   let timer: any;
   const { state, dispatch } = React.useContext(AppContext);
-  const [isLoggingIn, setIsLoggingIn] = React.useState(false);
-
-  const onLogin = () => {
-    dispatch({ type: 'reset-user' });
-    setIsLoggingIn(true);
-    timer = setTimeout(() => {
-      const user: IUser = {
-        displayName: 'dooboolab',
-        age: 30,
-        job: 'developer',
-      };
-      dispatch({ type: 'set-user', payload: user });
-      setIsLoggingIn(false);
-      clearTimeout(timer);
-    }, 1000);
-  };
 
   const navigate = () => {
     const location: object = {
       pathname: '/404',
+      state: {},
+    };
+    props.history.push(location);
+  };
+
+  const navigateToSignIn = () => {
+    const location: object = {
+      pathname: '/signin',
       state: {},
     };
     props.history.push(location);
@@ -129,9 +121,8 @@ function Intro(props: IProps) {
       </ContentWrapper>
       <ButtonWrapper>
         <Button
-          imgSrc={IC_GOOGLE_W}
-          isLoading={isLoggingIn}
-          onClick={() => onLogin()}
+          onClick={() => navigateToSignIn()}
+          inverted={true}
           text={getString('LOGIN')}
         />
         <Button

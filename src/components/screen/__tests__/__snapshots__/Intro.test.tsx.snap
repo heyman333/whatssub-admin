@@ -27,7 +27,7 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
     className="sc-htoDjs jtOwzg"
   >
     <button
-      className="sc-bdVaJa eovVDg"
+      className="sc-bwzfXH czrGzF"
       onClick={[Function]}
       style={
         Object {
@@ -36,12 +36,8 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
       }
     >
       <div>
-        <img
-          className="sc-ifAKCX iaWYmM"
-          src="test-file-stub"
-        />
         <span
-          className="sc-bxivhb hZnkGD"
+          className="sc-htpNat lnXBCo"
         >
           Login
         </span>
