@@ -76,20 +76,11 @@ interface IProps {
 }
 
 function Intro(props: IProps) {
-  let timer: any;
   const { state, dispatch } = React.useContext(AppContext);
 
-  const navigate = () => {
+  const navigate = (pathname: string) => {
     const location: object = {
-      pathname: '/404',
-      state: {},
-    };
-    props.history.push(location);
-  };
-
-  const navigateToSignIn = () => {
-    const location: object = {
-      pathname: '/signin',
+      pathname,
       state: {},
     };
     props.history.push(location);
@@ -121,12 +112,17 @@ function Intro(props: IProps) {
       </ContentWrapper>
       <ButtonWrapper>
         <Button
-          onClick={() => navigateToSignIn()}
+          onClick={() => navigate('/signin')}
           inverted={true}
-          text={getString('LOGIN')}
+          text={getString('SIGN_IN_SCREEN')}
         />
         <Button
-          onClick={() => navigate()}
+          onClick={() => navigate('/main')}
+          inverted={true}
+          text={getString('MAIN_SCREEN')}
+        />
+        <Button
+          onClick={() => navigate('/404')}
           inverted={true}
           text={getString('NAVIGATE')}
         />

@@ -39,7 +39,24 @@ exports[`[Intro] screen rendering test should render outer component and snapsho
         <span
           className="sc-htpNat lnXBCo"
         >
-          Login
+          Sign in screen
+        </span>
+      </div>
+    </button>
+    <button
+      className="sc-bwzfXH czrGzF"
+      onClick={[Function]}
+      style={
+        Object {
+          "height": "60px",
+        }
+      }
+    >
+      <div>
+        <span
+          className="sc-htpNat lnXBCo"
+        >
+          Main screen
         </span>
       </div>
     </button>

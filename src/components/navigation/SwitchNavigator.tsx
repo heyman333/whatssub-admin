@@ -8,6 +8,8 @@ import { createTheme } from '../../theme';
 import Intro from '../screen/Intro';
 import Temp from '../screen/Temp';
 import SignIn from '../screen/SignIn';
+import Main from '../screen/Main';
+import { SERVICE_LIST } from '../screen/Main/mock';
 
 interface IProps {
   store?: any;
@@ -23,6 +25,7 @@ function SwitchNavigator(props: {}) {
           <Switch>
             <Route exact={true} path='/' render={(param) => <Intro {...param} {...props}/>} />
             <Route path='/signin' render={(param) => <SignIn {...param} {...props}/>} />
+            <Route path='/main' render={(param) => <Main ServiceList={SERVICE_LIST} {...param} {...props}/>} />
             <Route render={(param) => <Temp {...param} {...props}/>} />
           </Switch>
         </div>

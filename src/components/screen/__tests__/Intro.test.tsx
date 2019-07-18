@@ -1,6 +1,6 @@
 import React from 'react';
 import * as renderer from 'react-test-renderer';
-import {render, act, fireEvent, cleanup, waitForElement, getByTestId} from '@testing-library/react';
+import { render, act, fireEvent, cleanup, waitForElement, getByTestId } from '@testing-library/react';
 
 import { AppProvider } from '../../../providers';
 import Intro from '../Intro';
@@ -51,27 +51,19 @@ describe('[Intro] Interaction', () => {
 
   afterEach(cleanup);
 
-  it('should simulate [navigate to SignIn] when clicked', () => {
+  it('should simulate [navigate to screen] when clicked', () => {
     rendered = renderer.create(component);
     root = rendered.root;
 
     const buttons = root.findAllByType(Button);
-    buttons[0].props.onClick();
-    expect(props.history.push).toBeCalledWith({
-      pathname: '/signin',
-      state: {},
-    });
-  });
 
-  it('should simulate [navigate] when clicked', () => {
-    rendered = renderer.create(component);
-    root = rendered.root;
-
-    const buttons = root.findAllByType(Button);
-    buttons[1].props.onClick();
-    expect(props.history.push).toBeCalledWith({
-      pathname: '/404',
-      state: {},
+    const navList = ['/signin', '/main', '/404'];
+    navList.map((pathname, index) => {
+      buttons[index].props.onClick();
+      expect(props.history.push).toBeCalledWith({
+        pathname,
+        state: {},
+      });
     });
   });
 

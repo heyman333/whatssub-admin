@@ -1,0 +1,3026 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Main] render renders without crashing 1`] = `
+<div
+  className="sc-gZMcBi daCxje"
+>
+  <div
+    className="sc-jTzLTM cwGCaY"
+  >
+    <h1
+      className="sc-gqjmRU kIZOoU"
+    >
+      Whatssub Admin
+    </h1>
+    <div
+      className="sc-fjdhpX hzJtZK"
+    >
+      <div
+        className="sc-VigVT jQzTgw"
+      >
+        Service List
+      </div>
+      <button
+        className="sc-bdVaJa sc-jzJRlG VlusJ"
+        data-testid="addServiceButton"
+        onClick={[Function]}
+      >
+        Add Service
+      </button>
+    </div>
+    <div
+      className="sc-bwzfXH fIDMNA"
+    >
+      <table
+        className="sc-htpNat jbGzjU"
+      >
+        <thead
+          className="sc-bxivhb ldJWmR"
+        >
+          <tr
+            className="sc-EHOje fIbXKp"
+          >
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              ID
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              NAME
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              NAME (KR)
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              ICON
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            />
+          </tr>
+        </thead>
+        <tbody
+          className="sc-bZQynM caJKpL"
+        >
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-66326"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-66326"
+              label="ID"
+            >
+              66326
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-66326"
+              label="NAME"
+            >
+              Dickinson LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-66326"
+              label="NAME (KR)"
+            >
+              Prosacco, Schowalter and Weissnat
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-66326"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/kylefrost/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-66326"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-66326"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-66326"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-96883"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-96883"
+              label="ID"
+            >
+              96883
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-96883"
+              label="NAME"
+            >
+              Little, Fritsch and Schmitt
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-96883"
+              label="NAME (KR)"
+            >
+              Williamson, Weissnat and Prosacco
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-96883"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/justinrob/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-96883"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-96883"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-96883"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-69533"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-69533"
+              label="ID"
+            >
+              69533
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-69533"
+              label="NAME"
+            >
+              Franecki - Erdman
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-69533"
+              label="NAME (KR)"
+            >
+              Bogisich and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-69533"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/madewulf/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-69533"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-69533"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-69533"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-64598"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-64598"
+              label="ID"
+            >
+              64598
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-64598"
+              label="NAME"
+            >
+              Schinner LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-64598"
+              label="NAME (KR)"
+            >
+              Carroll, Walter and Heathcote
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-64598"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/dahparra/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-64598"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-64598"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-64598"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-1805"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-1805"
+              label="ID"
+            >
+              1805
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-1805"
+              label="NAME"
+            >
+              Kunde - Zulauf
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-1805"
+              label="NAME (KR)"
+            >
+              Renner, Moore and Williamson
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-1805"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/stevedesigner/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-1805"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-1805"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-1805"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-67807"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-67807"
+              label="ID"
+            >
+              67807
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-67807"
+              label="NAME"
+            >
+              Maggio Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-67807"
+              label="NAME (KR)"
+            >
+              Zemlak and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-67807"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/bboy1895/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-67807"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-67807"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-67807"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-74063"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-74063"
+              label="ID"
+            >
+              74063
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-74063"
+              label="NAME"
+            >
+              Kozey, Turcotte and Jerde
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-74063"
+              label="NAME (KR)"
+            >
+              Kuhlman and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-74063"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-74063"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-74063"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-74063"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-4394"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-4394"
+              label="ID"
+            >
+              4394
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-4394"
+              label="NAME"
+            >
+              Dickens - Tromp
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-4394"
+              label="NAME (KR)"
+            >
+              Becker, Nolan and Miller
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-4394"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/andrea211087/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-4394"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-4394"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-4394"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-98903"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-98903"
+              label="ID"
+            >
+              98903
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-98903"
+              label="NAME"
+            >
+              Lemke - Sipes
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-98903"
+              label="NAME (KR)"
+            >
+              Price, Sipes and Cormier
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-98903"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/peejfancher/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-98903"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-98903"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-98903"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-67264"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-67264"
+              label="ID"
+            >
+              67264
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-67264"
+              label="NAME"
+            >
+              Koepp - Sporer
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-67264"
+              label="NAME (KR)"
+            >
+              Reichel, Christiansen and Schneider
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-67264"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/mrjamesnoble/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-67264"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-67264"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-67264"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-71896"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-71896"
+              label="ID"
+            >
+              71896
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-71896"
+              label="NAME"
+            >
+              Hintz Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-71896"
+              label="NAME (KR)"
+            >
+              Rippin LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-71896"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/saarabpreet/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-71896"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-71896"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-71896"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-64305"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-64305"
+              label="ID"
+            >
+              64305
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-64305"
+              label="NAME"
+            >
+              Koch, Thiel and Vandervort
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-64305"
+              label="NAME (KR)"
+            >
+              Hoeger, Beatty and Kessler
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-64305"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/moscoz/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-64305"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-64305"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-64305"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-41401"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-41401"
+              label="ID"
+            >
+              41401
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-41401"
+              label="NAME"
+            >
+              Hoppe, Stoltenberg and Cremin
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-41401"
+              label="NAME (KR)"
+            >
+              Pfeffer Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-41401"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/gipsy_raf/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-41401"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-41401"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-41401"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-52945"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-52945"
+              label="ID"
+            >
+              52945
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-52945"
+              label="NAME"
+            >
+              Monahan - Hintz
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-52945"
+              label="NAME (KR)"
+            >
+              Beer LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-52945"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/laurengray/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-52945"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-52945"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-52945"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-73657"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-73657"
+              label="ID"
+            >
+              73657
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-73657"
+              label="NAME"
+            >
+              Kub, Doyle and Halvorson
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-73657"
+              label="NAME (KR)"
+            >
+              Osinski, Medhurst and Cronin
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-73657"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/shesgared/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-73657"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-73657"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-73657"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-72388"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-72388"
+              label="ID"
+            >
+              72388
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-72388"
+              label="NAME"
+            >
+              Sawayn - Paucek
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-72388"
+              label="NAME (KR)"
+            >
+              Paucek, Kuhn and Monahan
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-72388"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/uxalex/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-72388"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-72388"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-72388"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-36458"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-36458"
+              label="ID"
+            >
+              36458
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-36458"
+              label="NAME"
+            >
+              Mayert, Greenfelder and Mills
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-36458"
+              label="NAME (KR)"
+            >
+              Botsford, Emmerich and Heller
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-36458"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/mattbilotti/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-36458"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-36458"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-36458"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-93178"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-93178"
+              label="ID"
+            >
+              93178
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-93178"
+              label="NAME"
+            >
+              Mohr - Marquardt
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-93178"
+              label="NAME (KR)"
+            >
+              Langosh Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-93178"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/davecraige/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-93178"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-93178"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-93178"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-29400"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-29400"
+              label="ID"
+            >
+              29400
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-29400"
+              label="NAME"
+            >
+              Johnson Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-29400"
+              label="NAME (KR)"
+            >
+              Langosh, Kris and Quitzon
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-29400"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/praveen_vijaya/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-29400"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-29400"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-29400"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-8636"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-8636"
+              label="ID"
+            >
+              8636
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-8636"
+              label="NAME"
+            >
+              Schroeder Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-8636"
+              label="NAME (KR)"
+            >
+              Volkman, Towne and Roob
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-8636"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/VinThomas/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-8636"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-8636"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-8636"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-18768"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-18768"
+              label="ID"
+            >
+              18768
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-18768"
+              label="NAME"
+            >
+              Franecki LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-18768"
+              label="NAME (KR)"
+            >
+              Boehm - Vandervort
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-18768"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/bublienko/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-18768"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-18768"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-18768"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-1302"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-1302"
+              label="ID"
+            >
+              1302
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-1302"
+              label="NAME"
+            >
+              Ferry, Schoen and Corwin
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-1302"
+              label="NAME (KR)"
+            >
+              Mraz, Lowe and Lindgren
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-1302"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/calebjoyce/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-1302"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-1302"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-1302"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-15156"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-15156"
+              label="ID"
+            >
+              15156
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-15156"
+              label="NAME"
+            >
+              Morar, Vandervort and Stark
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-15156"
+              label="NAME (KR)"
+            >
+              O'Conner Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-15156"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/betraydan/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-15156"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-15156"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-15156"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-5459"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-5459"
+              label="ID"
+            >
+              5459
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-5459"
+              label="NAME"
+            >
+              Bartell - Herzog
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-5459"
+              label="NAME (KR)"
+            >
+              Effertz, Cassin and Robel
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-5459"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/cadikkara/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-5459"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-5459"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-5459"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-17392"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-17392"
+              label="ID"
+            >
+              17392
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-17392"
+              label="NAME"
+            >
+              Littel Inc
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-17392"
+              label="NAME (KR)"
+            >
+              Prohaska LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-17392"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/h1brd/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-17392"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-17392"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-17392"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-99635"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-99635"
+              label="ID"
+            >
+              99635
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-99635"
+              label="NAME"
+            >
+              Jacobson and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-99635"
+              label="NAME (KR)"
+            >
+              Hoeger - Daniel
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-99635"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/thatonetommy/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-99635"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-99635"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-99635"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-67587"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-67587"
+              label="ID"
+            >
+              67587
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-67587"
+              label="NAME"
+            >
+              Reichert, Cole and Ratke
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-67587"
+              label="NAME (KR)"
+            >
+              Rippin - Goyette
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-67587"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/krasnoukhov/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-67587"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-67587"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-67587"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-3266"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-3266"
+              label="ID"
+            >
+              3266
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-3266"
+              label="NAME"
+            >
+              Marquardt - Denesik
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-3266"
+              label="NAME (KR)"
+            >
+              Johnson, Streich and Gleason
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-3266"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/geshan/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-3266"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-3266"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-3266"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-29658"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-29658"
+              label="ID"
+            >
+              29658
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-29658"
+              label="NAME"
+            >
+              Orn and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-29658"
+              label="NAME (KR)"
+            >
+              Bernier Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-29658"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/abdullindenis/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-29658"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-29658"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-29658"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-48531"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-48531"
+              label="ID"
+            >
+              48531
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-48531"
+              label="NAME"
+            >
+              Moen, Abbott and Gleason
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-48531"
+              label="NAME (KR)"
+            >
+              Purdy - Durgan
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-48531"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/suribbles/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-48531"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-48531"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-48531"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-99395"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-99395"
+              label="ID"
+            >
+              99395
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-99395"
+              label="NAME"
+            >
+              Corkery - Kulas
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-99395"
+              label="NAME (KR)"
+            >
+              Satterfield, Heller and Fisher
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-99395"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/kerihenare/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-99395"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-99395"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-99395"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-83962"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-83962"
+              label="ID"
+            >
+              83962
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-83962"
+              label="NAME"
+            >
+              Kiehn - Roob
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-83962"
+              label="NAME (KR)"
+            >
+              Douglas Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-83962"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/oscarowusu/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-83962"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-83962"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-83962"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-60683"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-60683"
+              label="ID"
+            >
+              60683
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-60683"
+              label="NAME"
+            >
+              Orn - Wiegand
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-60683"
+              label="NAME (KR)"
+            >
+              Hintz - O'Keefe
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-60683"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/derekcramer/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-60683"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-60683"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-60683"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-96307"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-96307"
+              label="ID"
+            >
+              96307
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-96307"
+              label="NAME"
+            >
+              Mills - Kuvalis
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-96307"
+              label="NAME (KR)"
+            >
+              DuBuque - Dibbert
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-96307"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/mwarkentin/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-96307"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-96307"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-96307"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-56053"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-56053"
+              label="ID"
+            >
+              56053
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-56053"
+              label="NAME"
+            >
+              Gerhold - Bartell
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-56053"
+              label="NAME (KR)"
+            >
+              Feil - Kling
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-56053"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/Skyhartman/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-56053"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-56053"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-56053"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-40807"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-40807"
+              label="ID"
+            >
+              40807
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-40807"
+              label="NAME"
+            >
+              Mitchell, Osinski and Weissnat
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-40807"
+              label="NAME (KR)"
+            >
+              Schulist - Kozey
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-40807"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/peachananr/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-40807"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-40807"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-40807"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-19355"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-19355"
+              label="ID"
+            >
+              19355
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-19355"
+              label="NAME"
+            >
+              Price - Zboncak
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-19355"
+              label="NAME (KR)"
+            >
+              Becker, Corkery and Maggio
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-19355"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/dicesales/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-19355"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-19355"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-19355"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-27582"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-27582"
+              label="ID"
+            >
+              27582
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-27582"
+              label="NAME"
+            >
+              McClure Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-27582"
+              label="NAME (KR)"
+            >
+              Lowe, Windler and Dooley
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-27582"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/bradenhamm/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-27582"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-27582"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-27582"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-70457"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-70457"
+              label="ID"
+            >
+              70457
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-70457"
+              label="NAME"
+            >
+              Wyman LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-70457"
+              label="NAME (KR)"
+            >
+              Lemke, Kub and Baumbach
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-70457"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/gregkilian/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-70457"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-70457"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-70457"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-90123"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-90123"
+              label="ID"
+            >
+              90123
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-90123"
+              label="NAME"
+            >
+              Moen Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-90123"
+              label="NAME (KR)"
+            >
+              Hayes - Von
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-90123"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/eduardostuart/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-90123"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-90123"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-90123"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-51747"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-51747"
+              label="ID"
+            >
+              51747
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-51747"
+              label="NAME"
+            >
+              Ondricka, Smith and Abbott
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-51747"
+              label="NAME (KR)"
+            >
+              Nader and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-51747"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/vickyshits/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-51747"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-51747"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-51747"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-87355"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-87355"
+              label="ID"
+            >
+              87355
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-87355"
+              label="NAME"
+            >
+              Davis, Howell and Lindgren
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-87355"
+              label="NAME (KR)"
+            >
+              Fahey - Bradtke
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-87355"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/primozcigler/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-87355"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-87355"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-87355"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-61474"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-61474"
+              label="ID"
+            >
+              61474
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-61474"
+              label="NAME"
+            >
+              Mitchell LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-61474"
+              label="NAME (KR)"
+            >
+              Buckridge Group
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-61474"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/ryandownie/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-61474"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-61474"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-61474"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-35247"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-35247"
+              label="ID"
+            >
+              35247
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-35247"
+              label="NAME"
+            >
+              MacGyver - Thompson
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-35247"
+              label="NAME (KR)"
+            >
+              Blick - Hilll
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-35247"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/magugzbrand2d/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-35247"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-35247"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-35247"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-30366"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-30366"
+              label="ID"
+            >
+              30366
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-30366"
+              label="NAME"
+            >
+              Waters - Lubowitz
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-30366"
+              label="NAME (KR)"
+            >
+              Mills - Kohler
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-30366"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/charliecwaite/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-30366"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-30366"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-30366"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-81822"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-81822"
+              label="ID"
+            >
+              81822
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-81822"
+              label="NAME"
+            >
+              Daniel - Friesen
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-81822"
+              label="NAME (KR)"
+            >
+              Batz and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-81822"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/stevedesigner/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-81822"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-81822"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-81822"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-13399"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-13399"
+              label="ID"
+            >
+              13399
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-13399"
+              label="NAME"
+            >
+              Wilderman - Hoppe
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-13399"
+              label="NAME (KR)"
+            >
+              Stroman, Emmerich and Howell
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-13399"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/brajeshwar/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-13399"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-13399"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-13399"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-83969"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-83969"
+              label="ID"
+            >
+              83969
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-83969"
+              label="NAME"
+            >
+              Lubowitz - Monahan
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-83969"
+              label="NAME (KR)"
+            >
+              Grimes - Quigley
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-83969"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/antjanus/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-83969"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-83969"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-83969"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-61979"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-61979"
+              label="ID"
+            >
+              61979
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-61979"
+              label="NAME"
+            >
+              Lemke, Bergstrom and Hane
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-61979"
+              label="NAME (KR)"
+            >
+              Kihn LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-61979"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/heycamtaylor/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-61979"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-61979"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-61979"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-99082"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-99082"
+              label="ID"
+            >
+              99082
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jBZfFX"
+              data-testid="nameCell-99082"
+              label="NAME"
+            >
+              Cummings LLC
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs gthdCl"
+              data-testid="nameKrCell-99082"
+              label="NAME (KR)"
+            >
+              Schuster and Sons
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs kfATlq"
+              data-testid="iconCell-99082"
+              label="ICON"
+            >
+              <img
+                className="sc-iwsKbI dgOgHp"
+                src="https://s3.amazonaws.com/uifaces/faces/twitter/stan/128.jpg"
+              />
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-99082"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="updateServiceButton-99082"
+                onClick={[Function]}
+              >
+                Update
+              </button>
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteServiceButton-99082"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
