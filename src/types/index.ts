@@ -10,9 +10,21 @@ export interface ILocale {
   current: string;
 }
 
-export type Service = {
+interface IService {
   id: string,
   name: string,
   nameKr: string,
-  icon: string
+  icon: string,
+  url: string,
+  description: string,
+};
+export type ServiceForMain = Pick<IService, 'id'|'name'|'nameKr'|'icon'>
+export type ServiceForServiceDetail = Pick<IService, 'name'|'nameKr'|'url'|'description'>
+
+export interface IProduct {
+  id: string;
+  name: string;
+  currency: string;
+  price: string;
+  subType: string;
 };

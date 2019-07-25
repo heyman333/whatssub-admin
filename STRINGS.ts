@@ -22,6 +22,8 @@ const STRINGS = {
     DELETE_BUTTON: 'Delete',
     SERVICE_LIST: 'Service List',
     SERVICE_ADD_BUTTON: 'Add Service',
+    PRODUCT_LIST: 'Product List',
+    PRODUCT_ADD_BUTTON: 'Add Product',
   },
   ko: { // Korean
     BUTTON: '버튼',
@@ -46,6 +48,8 @@ const STRINGS = {
     DELETE_BUTTON: '삭제',
     SERVICE_LIST: '서비스 목록',
     SERVICE_ADD_BUTTON: '서비스 추가',
+    PRODUCT_LIST: '상품 목록',
+    PRODUCT_ADD_BUTTON: '상품 추가',
   },
   // ja: { // Japanese
   // },

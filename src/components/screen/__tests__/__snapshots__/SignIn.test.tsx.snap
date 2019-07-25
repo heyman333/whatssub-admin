@@ -2,23 +2,23 @@
 
 exports[`[SignIn] render renders without crashing 1`] = `
 <div
-  className="sc-bdVaJa eKXWdn"
+  className="sc-EHOje esHauf"
 >
   <div
-    className="sc-htpNat bGuyUj"
+    className="sc-bZQynM cndpHV"
   >
     Whatssub Admin
   </div>
   <form
-    className="sc-bwzfXH kulSxP"
+    className="sc-bdVaJa bPGLpq"
     onSubmit={[Function]}
   >
     <label
-      className="sc-bxivhb LPZtQ"
+      className="sc-bwzfXH jYEUDA"
     >
       Email:
       <input
-        className="sc-ifAKCX dvbUXC"
+        className="sc-htpNat cymWMm"
         data-testid="email"
         name="email"
         onBlur={[Function]}
@@ -28,11 +28,11 @@ exports[`[SignIn] render renders without crashing 1`] = `
       />
     </label>
     <label
-      className="sc-bxivhb LPZtQ"
+      className="sc-bwzfXH jYEUDA"
     >
       Password:
       <input
-        className="sc-ifAKCX dvbUXC"
+        className="sc-htpNat cymWMm"
         data-testid="password"
         name="password"
         onBlur={[Function]}
@@ -42,7 +42,7 @@ exports[`[SignIn] render renders without crashing 1`] = `
       />
     </label>
     <button
-      className="sc-EHOje fLKwPt"
+      className="sc-bxivhb hFrwfb"
       data-testid="submit"
       disabled={false}
       type="submit"

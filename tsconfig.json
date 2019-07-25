@@ -1,6 +1,10 @@
 {
   "compilerOptions": {
     "baseUrl": ".",
+    // "rootDirs": "[
+    //   "src",
+    //   "stories"
+    // ]",
     "outDir": "dist",
     "allowJs": true,
     "sourceMap": true,

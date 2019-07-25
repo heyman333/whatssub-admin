@@ -6,23 +6,23 @@ import { render, fireEvent, getByTestId, wait, queryByTestId } from '@testing-li
 import { SERVICE_LIST } from '../Main/mock';
 
 const props = {
-  onSubmitSuccess: jest.fn(),
   onAddServiceClick: jest.fn(),
   onServiceClick: jest.fn(),
   onUpdateServiceClick: jest.fn(),
   onDeleteServiceClick: jest.fn(),
+  serviceList: SERVICE_LIST,
 };
 
 describe('[Main] render', () => {
   it('renders without crashing', () => {
-    const rendered = renderer.create(<Main ServiceList={SERVICE_LIST} />).toJSON();
+    const rendered = renderer.create(<Main {...props} />).toJSON();
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
 });
 
 describe('[Main] Interaction', () => {
-  const component = <Main ServiceList={SERVICE_LIST} {...props} />;
+  const component = <Main {...props} />;
   let renderResult: any;
 
   beforeAll(() => {

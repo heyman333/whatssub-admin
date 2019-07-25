@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
-import { ServiceForMain } from '../../../types';
+import { IProduct } from '../../../types';
 import styled, { css } from 'styled-components';
 import { getString } from '../../../../STRINGS';
 import { colors } from '../../../theme';
 import SimpleButton from '../../shared/SimpleButton';
 
-const SERVICE_LABEL: ServiceForMain =
+const productLabel: IProduct =
 {
   id: 'ID',
-  name: 'NAME',
-  nameKr: 'NAME (KR)',
-  icon: 'ICON',
+  name: '상품명',
+  currency: '통화',
+  price: '가격',
+  subType: '갱신단위 / 주기',
 };
 
 const Hide = css`
@@ -143,52 +144,37 @@ const ControlCell = styled(Cell)`
   align-items: center;  
 `;
 
-const Img = styled.img`
-  width: 32px;
-  margin: 5px;
-`;
-const ClickableImageCell = (props) => (
-  <ClickableCell {...props}>
-    <Img src={props.children} />
-  </ClickableCell>
-);
-
 interface IProps {
-  onUpdateServiceClick?: (serviceId: string) => void;
-  onDeleteServiceClick?: (serviceId: string) => void;
-  onServiceClick?: (serviceId: string) => void;
-  serviceList: Array<ServiceForMain>;
+  onDeleteProductClick?: (productId: string) => void;
+  onProductClick?: (productId: string) => void;
+  productList: Array<IProduct>;
 }
-const ServiceTable: React.FC<IProps> = (props) => {
+const ProductTable: React.FC<IProps> = (props) => {
   const [hoverRow, setHoverRow] = useState('');
-  const content = props.serviceList.map(({ id, name, nameKr, icon }) => {
+  const content = props.productList.map(({ id, name, currency, price, subType }) => {
     // scale up some cells when mouse is hovering on its parent's row -> visual feedback for user
     const scaleUp = id === hoverRow;
     return (
       <Tr data-testid={`tableRow-${id}`} onMouseOver={() => { setHoverRow(id); }} key={id} onClick={(event: any) => {
         // Using bubbling events from clicking desired cells to fire navigation
         // Currently event condition fires with all cells execpt ControlCell. in ControlCell it uses `event.stopPropagation()` to prevent event to bubble up
-        props.onServiceClick && props.onServiceClick(id);
-        // TODO: Integrate 'ServiceDetail' screen navigation. remove below 'console.log()' afterwards
-        // console.log(`Navigate to 'ServiceDetail' Screen with Service ID:${id}`);
+        props.onProductClick && props.onProductClick(id);
+        // TODO: Integrate 'ProductDetail' screen navigation. remove below 'console.log()' afterwards
+        // console.log(`Navigate to 'ProductDetail' Screen with Product ID:${id}`);
       }
       }>
-        <ClickableCell data-testid={`idCell-${id}`} label={SERVICE_LABEL.id} scaleUp={scaleUp}>{id}</ClickableCell>
-        <ClickableCell data-testid={`nameCell-${id}`} label={SERVICE_LABEL.name} scaleUp={scaleUp}>{name}</ClickableCell>
-        <ClickableCell data-testid={`nameKrCell-${id}`} label={SERVICE_LABEL.nameKr} scaleUp={scaleUp}>{nameKr}</ClickableCell>
-        <ClickableImageCell data-testid={`iconCell-${id}`} label={SERVICE_LABEL.icon} scaleUp={scaleUp}>{icon}</ClickableImageCell>
+        <ClickableCell data-testid={`idCell-${id}`} label={productLabel.id} scaleUp={scaleUp}>{id}</ClickableCell>
+        <ClickableCell data-testid={`nameCell-${id}`} label={productLabel.name} scaleUp={scaleUp}>{name}</ClickableCell>
+        <ClickableCell data-testid={`currencyCell-${id}`} label={productLabel.currency} scaleUp={scaleUp}>{currency}</ClickableCell>
+        <ClickableCell data-testid={`priceCell-${id}`} label={productLabel.price} scaleUp={scaleUp}>{price}</ClickableCell>
+        <ClickableCell data-testid={`subTypeCell-${id}`} label={productLabel.subType} scaleUp={scaleUp}>{subType}</ClickableCell>
+
         <ControlCell data-testid={`controlCell-${id}`} label={null} onClick={(e) => { e.stopPropagation(); }}>
-          <SimpleButton data-testid={`updateServiceButton-${id}`}
+          <SimpleButton data-testid={`deleteProductButton-${id}`}
             onClick={() => {
-              props.onUpdateServiceClick && props.onUpdateServiceClick(id);
-              // TODO: Integrate opening 'ServiceModalEdit'. remove below afterwards
-              // console.log(`Update button is clicked. Open 'ServiceModalEdit' modal with Service Id:${id}`);
-            }}>{getString('UPDATE_BUTTON')}</SimpleButton>
-          <SimpleButton data-testid={`deleteServiceButton-${id}`}
-            onClick={() => {
-              props.onDeleteServiceClick && props.onDeleteServiceClick(id);
-              // TODO: Integrate opening 'ServiceModalDelete' confirmation modal. remove below 'console.log()' afterwards
-              // console.log(`Delete button is clicked. Open confirming modal for deleting Service Id:${id}`);
+              props.onDeleteProductClick && props.onDeleteProductClick(id);
+              // TODO: Integrate opening 'ProductModalDelete' confirmation modal. remove below 'console.log()' afterwards
+              // console.log(`Delete button is clicked. Open confirming modal for deleting Product Id:${id}`);
             }}>{getString('DELETE_BUTTON')}</SimpleButton>
         </ControlCell>
       </Tr >
@@ -199,10 +185,11 @@ const ServiceTable: React.FC<IProps> = (props) => {
       <Table>
         <Thead>
           <Tr>
-            <Th>{SERVICE_LABEL.id}</Th>
-            <Th>{SERVICE_LABEL.name}</Th>
-            <Th>{SERVICE_LABEL.nameKr}</Th>
-            <Th>{SERVICE_LABEL.icon}</Th>
+            <Th>{productLabel.id}</Th>
+            <Th>{productLabel.name}</Th>
+            <Th>{productLabel.currency}</Th>
+            <Th>{productLabel.price}</Th>
+            <Th>{productLabel.subType}</Th>
             <Th>{null}</Th>
           </Tr>
         </Thead>
@@ -214,4 +201,4 @@ const ServiceTable: React.FC<IProps> = (props) => {
   );
 };
 
-export default ServiceTable;
+export default ProductTable;

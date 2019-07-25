@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import ServiceTable from './ServiceTable';
 import { getString } from '../../../../STRINGS';
 import SimpleButton from '../../shared/SimpleButton';
-import { Service } from '../../../types';
+import { ServiceForMain } from '../../../types';
 
 const Container = styled.div`
   display: flex;
@@ -46,17 +46,17 @@ const AddServiceButton = styled(SimpleButton)`
   margin-right: 0.5em;
 `;
 
-interface IProps {
+interface IMain {
   history?: any;
   // Those Service related click handlers are used in test
   onAddServiceClick?: () => void;
   onServiceClick?: (serviceId: string) => void;
   onUpdateServiceClick?: (serviceId: string) => void;
   onDeleteServiceClick?: (serviceId: string) => void;
-  ServiceList: Array<Service>;
+  serviceList: Array<ServiceForMain>;
 }
 
-function Main(props: IProps) {
+function Main(props: IMain) {
   const { history, onAddServiceClick, ...propsToServiceTable } = props;
   return (
     <Container>

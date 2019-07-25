@@ -1,5 +1,5 @@
 import faker from 'faker';
-import { Service } from '../../../types';
+import { ServiceForMain } from '../../../types';
 
 // This function is being used to create below SERVICE_LIST
 
@@ -19,7 +19,7 @@ import { Service } from '../../../types';
 //   return list;
 // };
 
-export const SERVICE_LIST: Array<Service> = [
+export const SERVICE_LIST: Array<ServiceForMain> = [
   {
     'id': '66326',
     'name': 'Dickinson LLC',

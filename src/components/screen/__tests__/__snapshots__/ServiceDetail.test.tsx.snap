@@ -1,0 +1,285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ServiceDetail] render renders without crashing 1`] = `
+<div
+  className="sc-iwsKbI bXavdl"
+>
+  <div
+    className="sc-fjdhpX ewNMeA"
+  >
+    <h1
+      className="sc-gZMcBi dBxpMD"
+    >
+      Whatssub Admin
+    </h1>
+    <div
+      className="sc-gqjmRU jhdAMm"
+    >
+      <div
+        className="sc-VigVT iEQGci"
+      >
+        서비스 명
+      </div>
+      <div>
+        Netflix
+      </div>
+    </div>
+    <div
+      className="sc-gqjmRU jhdAMm"
+    >
+      <div
+        className="sc-VigVT iEQGci"
+      >
+        URL
+      </div>
+      <div>
+        netflix.com
+      </div>
+    </div>
+    <div
+      className="sc-gqjmRU jhdAMm"
+    >
+      <div
+        className="sc-VigVT iEQGci"
+      >
+        설명
+      </div>
+      <div>
+        넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 넷플릭스 입니다. 
+      </div>
+    </div>
+    <div
+      className="sc-jzJRlG dVXBlX"
+    >
+      <div
+        className="sc-jTzLTM fSJIUY"
+      >
+        Product List
+      </div>
+      <button
+        className="sc-bdVaJa sc-cSHVUG kktCio"
+        data-testid="addProductButton"
+        onClick={[Function]}
+      >
+        Add Product
+      </button>
+    </div>
+    <div
+      className="sc-bwzfXH fIDMNA"
+    >
+      <table
+        className="sc-htpNat jbGzjU"
+      >
+        <thead
+          className="sc-bxivhb ldJWmR"
+        >
+          <tr
+            className="sc-EHOje fIbXKp"
+          >
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              ID
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              상품명
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              통화
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              가격
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            >
+              갱신단위 / 주기
+            </th>
+            <th
+              className="sc-ifAKCX ftnFMk"
+            />
+          </tr>
+        </thead>
+        <tbody
+          className="sc-bZQynM caJKpL"
+        >
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-1"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-1"
+              label="ID"
+            >
+              1
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jYKhlX"
+              data-testid="nameCell-1"
+              label="상품명"
+            >
+              Basic
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs pxokY"
+              data-testid="currencyCell-1"
+              label="통화"
+            >
+              KRW
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs bhArpJ"
+              data-testid="priceCell-1"
+              label="가격"
+            >
+              5,000
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs exOXOa"
+              data-testid="subTypeCell-1"
+              label="갱신단위 / 주기"
+            >
+              월 / 1
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-1"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteProductButton-1"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-2"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-2"
+              label="ID"
+            >
+              2
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jYKhlX"
+              data-testid="nameCell-2"
+              label="상품명"
+            >
+              Pro
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs pxokY"
+              data-testid="currencyCell-2"
+              label="통화"
+            >
+              KRW
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs bhArpJ"
+              data-testid="priceCell-2"
+              label="가격"
+            >
+              120,000
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs exOXOa"
+              data-testid="subTypeCell-2"
+              label="갱신단위 / 주기"
+            >
+              년 / 1
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-2"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteProductButton-2"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+          <tr
+            className="sc-EHOje fIbXKp"
+            data-testid="tableRow-3"
+            onClick={[Function]}
+            onMouseOver={[Function]}
+          >
+            <td
+              className="sc-gzVnrw sc-htoDjs jWoYzQ"
+              data-testid="idCell-3"
+              label="ID"
+            >
+              3
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs jYKhlX"
+              data-testid="nameCell-3"
+              label="상품명"
+            >
+              Special
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs pxokY"
+              data-testid="currencyCell-3"
+              label="통화"
+            >
+              USD
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs bhArpJ"
+              data-testid="priceCell-3"
+              label="가격"
+            >
+              110.00
+            </td>
+            <td
+              className="sc-gzVnrw sc-htoDjs exOXOa"
+              data-testid="subTypeCell-3"
+              label="갱신단위 / 주기"
+            >
+              년 / 1
+            </td>
+            <td
+              className="sc-gzVnrw sc-dnqmqq dqYWns"
+              data-testid="controlCell-3"
+              label={null}
+              onClick={[Function]}
+            >
+              <button
+                className="sc-bdVaJa kLNRSS"
+                data-testid="deleteProductButton-3"
+                onClick={[Function]}
+              >
+                Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
