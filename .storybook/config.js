@@ -1,6 +1,8 @@
 import { configure } from '@storybook/react';
 import { addDecorator } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs';
+import { withThemesProvider } from 'storybook-addon-styled-component-theme';
+import { theme } from "../src/theme"
 
 //global css
 import "../dist/styles.css"
@@ -14,5 +16,7 @@ function loadStories() {
 
 configure(loadStories, module);
 
-//global decorators
+//global decorators 
 addDecorator(withKnobs);
+
+addDecorator(withThemesProvider([theme.light, theme.dark]));
