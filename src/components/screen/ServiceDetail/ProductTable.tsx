@@ -55,20 +55,24 @@ const Th = styled.th`
   position: sticky; 
   top: 0;
   background:#ccc;
+  color:${colors.darkBackgroundLight};
 
   ${cellPadding}
 `;
 
 const Tr = styled.tr`
+color: ${({ theme }) => theme.fontColor};
+background-color: ${({ theme }) => theme.background};
   ${WhenNarrow} {
     display: block;  
     margin: 0 0 1rem 0;    
   }
   &:nth-child(even){
-    background: #eee;
+    background-color: #eee;
+    color: ${colors.darkBackgroundLight};
   }
   &:hover{
-    background: ${colors.paleGray};
+    background-color: ${({ theme }) => theme.serviceListHoveColor};
   }
 `;
 

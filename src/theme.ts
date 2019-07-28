@@ -33,20 +33,24 @@ export const colors = {
 
 export const theme = {
   light: {
+    name: 'LIGHT', // for storybook theme provider addons
     background: `linear-gradient(to bottom right, ${colors.lightBackground}, ${colors.lightBackgroundLight})`,
     btnPrimary: colors.skyBlue,
     btnPrimaryFont: 'white',
     btnPrimaryLight: colors.whiteGray,
     btnPrimaryLightFont: 'black',
     fontColor: 'black',
+    serviceListHoveColor: colors.paleGray,
   },
   dark: {
+    name: 'DARK', // for storybook theme provider addons
     background: `linear-gradient(to bottom right, ${colors.darkBackground}, ${colors.darkBackgroundLight})`,
     btnPrimary: colors.skyBlue,
     btnPrimaryFont: 'white',
     btnPrimaryLight: colors.whiteGray,
     btnPrimaryLightFont: 'black',
     fontColor: 'white',
+    serviceListHoveColor: colors.skyBlue,
   },
 };
 
