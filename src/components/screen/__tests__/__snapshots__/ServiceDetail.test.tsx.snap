@@ -74,35 +74,35 @@ exports[`[ServiceDetail] render renders without crashing 1`] = `
           className="sc-bxivhb ldJWmR"
         >
           <tr
-            className="sc-EHOje fIbXKp"
+            className="sc-EHOje bRQJjK"
           >
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             >
               ID
             </th>
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             >
               상품명
             </th>
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             >
               통화
             </th>
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             >
               가격
             </th>
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             >
               갱신단위 / 주기
             </th>
             <th
-              className="sc-ifAKCX ftnFMk"
+              className="sc-ifAKCX cZVWOm"
             />
           </tr>
         </thead>
@@ -110,7 +110,7 @@ exports[`[ServiceDetail] render renders without crashing 1`] = `
           className="sc-bZQynM caJKpL"
         >
           <tr
-            className="sc-EHOje fIbXKp"
+            className="sc-EHOje bRQJjK"
             data-testid="tableRow-1"
             onClick={[Function]}
             onMouseOver={[Function]}
@@ -166,7 +166,7 @@ exports[`[ServiceDetail] render renders without crashing 1`] = `
             </td>
           </tr>
           <tr
-            className="sc-EHOje fIbXKp"
+            className="sc-EHOje bRQJjK"
             data-testid="tableRow-2"
             onClick={[Function]}
             onMouseOver={[Function]}
@@ -222,7 +222,7 @@ exports[`[ServiceDetail] render renders without crashing 1`] = `
             </td>
           </tr>
           <tr
-            className="sc-EHOje fIbXKp"
+            className="sc-EHOje bRQJjK"
             data-testid="tableRow-3"
             onClick={[Function]}
             onMouseOver={[Function]}
