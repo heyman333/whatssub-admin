@@ -61,8 +61,8 @@ const Th = styled.th`
 `;
 
 const Tr = styled.tr`
-color: ${({ theme }) => theme.fontColor};
-background-color: ${({ theme }) => theme.background};
+  color: ${({ theme }) => theme.fontColor};
+  background-color: ${({ theme }) => theme.background};
   ${WhenNarrow} {
     display: block;  
     margin: 0 0 1rem 0;    
