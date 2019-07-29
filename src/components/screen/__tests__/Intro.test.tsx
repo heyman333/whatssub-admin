@@ -2,10 +2,11 @@ import React from 'react';
 import * as renderer from 'react-test-renderer';
 import { render, act, fireEvent, cleanup, waitForElement, getByTestId } from '@testing-library/react';
 
-import { AppProvider } from '../../../providers';
+import { AppProvider, useAppContext } from '../../../providers';
 import Intro from '../Intro';
 import Button from '../../shared/Button';
 import { getString } from '../../../../STRINGS';
+import { ThemeType } from '../../../theme';
 
 const props = {
   navigation: {

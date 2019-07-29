@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { ServiceForMain } from '../../../types';
 import styled, { css } from 'styled-components';
 import { getString } from '../../../../STRINGS';
 import { colors } from '../../../theme';
 import SimpleButton from '../../shared/SimpleButton';
+import { IServiceModalProviderState } from '../../shared/ServiceModal';
 
 const SERVICE_LABEL: ServiceForMain =
 {
@@ -154,7 +155,8 @@ const ClickableImageCell = (props) => (
 );
 
 interface IProps {
-  onUpdateServiceClick?: (serviceId: string) => void;
+  // onUpdateServiceClick?: (serviceId: string) => void;
+  onUpdateServiceClick?: (serviceInfo: IServiceModalProviderState) => void;
   onDeleteServiceClick?: (serviceId: string) => void;
   onServiceClick?: (serviceId: string) => void;
   serviceList: Array<ServiceForMain>;
@@ -180,7 +182,12 @@ const ServiceTable: React.FC<IProps> = (props) => {
         <ControlCell data-testid={`controlCell-${id}`} label={null} onClick={(e) => { e.stopPropagation(); }}>
           <SimpleButton data-testid={`updateServiceButton-${id}`}
             onClick={() => {
-              props.onUpdateServiceClick && props.onUpdateServiceClick(id);
+              props.onUpdateServiceClick && props.onUpdateServiceClick({
+                id,
+                name,
+                nameKr,
+                icon,
+              });
               // TODO: Integrate opening 'ServiceModalEdit'. remove below afterwards
               // console.log(`Update button is clicked. Open 'ServiceModalEdit' modal with Service Id:${id}`);
             }}>{getString('UPDATE_BUTTON')}</SimpleButton>

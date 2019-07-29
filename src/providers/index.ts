@@ -1,7 +1,2 @@
-import { AppProvider, AppConsumer, AppContext } from './AppProvider';
-
-export {
-  AppProvider,
-  AppConsumer,
-  AppContext,
-};
+export * from './AppProvider';
+// export * from './ServiceModalProvider';

@@ -7,5 +7,13 @@ interface IAppContext {
   state?: any;
   dispatch?: any;
 }
+interface IServiceModalContext {
+  serviceModalState?: any;
+  serviceModalDispatch?: any;
+}
 
-export const AppContext = React.createContext<IAppContext | null>(null);
+const AppContext = React.createContext<IAppContext | null>(null);
+
+const ServiceModalContext = React.createContext<IServiceModalContext | null>(null);
+
+export { AppContext, ServiceModalContext };

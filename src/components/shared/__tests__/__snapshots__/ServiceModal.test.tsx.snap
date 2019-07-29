@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ServiceModal] render renders without crashing 1`] = `
+<div
+  className="sc-bwzfXH jyhetQ"
+>
+  <div
+    className="sc-htpNat hWibBV"
+  >
+    <form
+      onSubmit={[Function]}
+    >
+      <h3>
+        Add Service
+      </h3>
+      <div
+        className="sc-bxivhb ElINa"
+      >
+        <div
+          className="sc-gzVnrw eGGpmP"
+        >
+          <div
+            className="sc-htoDjs cIVlcQ"
+          >
+            Icon
+          </div>
+          <div
+            className="sc-dnqmqq eoabIh"
+          >
+            <div
+              className="sc-gzVnrw eGGpmP"
+            >
+              <div
+                className="sc-iwsKbI cKuSGv"
+              >
+                <div
+                  className="sc-gZMcBi fsWJbt"
+                  data-testid="imagePreview"
+                >
+                  <div
+                    data-testid="defaultPreview"
+                  >
+                    <div>
+                      png / gif
+                    </div>
+                    <div>
+                      512 x 512
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className="sc-jTzLTM fxOyQp"
+              >
+                <input
+                  className="sc-VigVT kxLHnZ"
+                  data-testid="icon"
+                  name="uploadIcon"
+                  onChange={[Function]}
+                  type="file"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="sc-gzVnrw eGGpmP"
+        >
+          <div
+            className="sc-htoDjs cIVlcQ"
+          >
+            Service Name
+          </div>
+          <div
+            className="sc-dnqmqq eoabIh"
+          >
+            <input
+              className="sc-EHOje fAHoIl"
+              data-testid="serviceName"
+              name="serviceName"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="sc-gzVnrw eGGpmP"
+        >
+          <div
+            className="sc-htoDjs cIVlcQ"
+          >
+            Service Name(KOR)
+          </div>
+          <div
+            className="sc-dnqmqq eoabIh"
+          >
+            <input
+              className="sc-EHOje fAHoIl"
+              data-testid="serviceNameKor"
+              name="serviceNameKor"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="sc-gzVnrw eGGpmP"
+        >
+          <div
+            className="sc-htoDjs cIVlcQ"
+          >
+            Web Page
+          </div>
+          <div
+            className="sc-dnqmqq eoabIh"
+          >
+            <input
+              className="sc-EHOje fAHoIl"
+              data-testid="url"
+              name="url"
+              onBlur={[Function]}
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="sc-gzVnrw eGGpmP"
+        >
+          <div
+            className="sc-htoDjs cIVlcQ"
+          >
+            Description
+          </div>
+          <div
+            className="sc-dnqmqq eoabIh"
+          >
+            <textarea
+              className="sc-bZQynM euFUXE"
+              data-testid="description"
+              name="description"
+              onBlur={[Function]}
+              onChange={[Function]}
+              value=""
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="sc-ifAKCX gENqNG"
+      >
+        <button
+          className="sc-bdVaJa kLNRSS"
+          data-testid="serviceModalCloseBtn"
+          onClick={[Function]}
+        >
+          Cancel
+        </button>
+        <button
+          className="sc-bdVaJa kLNRSS"
+          data-testid="serviceSubmit"
+          type="submit"
+        >
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

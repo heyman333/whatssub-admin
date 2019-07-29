@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import * as renderer from 'react-test-renderer';
 
 import Main from '../Main';
 import { render, fireEvent, getByTestId, wait, queryByTestId } from '@testing-library/react';
+// import { renderHook, act } from '@testing-library/react-hooks';
 import { SERVICE_LIST } from '../Main/mock';
+import { ServiceForMain } from '../../../types';
 
 const props = {
   onAddServiceClick: jest.fn(),
@@ -15,7 +17,9 @@ const props = {
 
 describe('[Main] render', () => {
   it('renders without crashing', () => {
-    const rendered = renderer.create(<Main {...props} />).toJSON();
+    const rendered = renderer.create(
+      <Main {...props} />
+    ).toJSON();
     expect(rendered).toMatchSnapshot();
     expect(rendered).toBeTruthy();
   });
@@ -40,7 +44,7 @@ describe('[Main] Interaction', () => {
       const chosenServiceId = service.id;
       const updateServiceButton = renderResult.getByTestId(`updateServiceButton-${chosenServiceId}`);
       fireEvent.click(updateServiceButton);
-      expect(props.onUpdateServiceClick.mock.calls[index][0]).toBe(chosenServiceId);
+      expect(props.onUpdateServiceClick.mock.calls[index][0].id).toBe(chosenServiceId);
     });
   });
 

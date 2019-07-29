@@ -31,7 +31,7 @@ export const colors = {
   darkBackgroundLight: '#393241',
 };
 
-const theme = {
+export const theme = {
   light: {
     background: `linear-gradient(to bottom right, ${colors.lightBackground}, ${colors.lightBackgroundLight})`,
     btnPrimary: colors.skyBlue,

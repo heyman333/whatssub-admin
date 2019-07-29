@@ -10,7 +10,7 @@ export interface ILocale {
   current: string;
 }
 
-interface IService {
+export interface IService {
   id: string,
   name: string,
   nameKr: string,

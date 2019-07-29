@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, { Component, useContext } from 'react';
 import styled from 'styled-components';
 import ServiceTable from './ServiceTable';
 import { getString } from '../../../../STRINGS';
 import SimpleButton from '../../shared/SimpleButton';
 import { ServiceForMain } from '../../../types';
+import { IServiceModalProviderState } from '../../shared/ServiceModal';
 
 const Container = styled.div`
   display: flex;
@@ -49,9 +50,9 @@ const AddServiceButton = styled(SimpleButton)`
 interface IMain {
   history?: any;
   // Those Service related click handlers are used in test
-  onAddServiceClick?: () => void;
+  onAddServiceClick: () => void;
   onServiceClick?: (serviceId: string) => void;
-  onUpdateServiceClick?: (serviceId: string) => void;
+  onUpdateServiceClick?: (serviceInfo: IServiceModalProviderState) => void;
   onDeleteServiceClick?: (serviceId: string) => void;
   serviceList: Array<ServiceForMain>;
 }
@@ -66,8 +67,6 @@ function Main(props: IMain) {
           <ServiceListTitle>{getString('SERVICE_LIST')}</ServiceListTitle>
           <AddServiceButton data-testid='addServiceButton' onClick={() => {
             props.onAddServiceClick && props.onAddServiceClick();
-            // TODO: Integrate opening 'ServiceModalEdit'. remove below 'console.log()' afterwards
-            // console.log(`Add Service button is clicked. Open 'ServiceModalEdit'`);
           }}>{getString('SERVICE_ADD_BUTTON')}</AddServiceButton>
         </TableLabelAndControl>
         <ServiceTable {...propsToServiceTable} />
